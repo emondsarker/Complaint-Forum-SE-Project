@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.GoogleButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.profileId{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileUploadBtn{
+  display: none;
+  
+}
+.fileUpload{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-style: dotted;
+  margin: 10px;
+  background-color: white;
+  padding: 50px 10px;
+  max-width: 300px;
+}
+.fileUpload p{
+  margin: 0;;
+  margin-top: 10px;
+}
+.uploadAction{
+  max-width: 300px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uploadAction button{
+  border: none;
+  color: white;
+  background-color: #02a6d3;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+.uploadAction p{
+  overflow: hidden;
+  max-width: 200px;
+  display: flex;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ocrimg{
+  width: 300px;
+  display: flex;
+  margin: auto;
+}
+
+.progress-label {
+  margin-bottom: 5px;
+}
+.progress-bar {
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  max-width: 50vw;
+}
+.progress {
+  background-color: rgb(0, 38, 255);
+  width: 0%;
+  height: 10px;
+}
+
+.ocrbody{
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  padding: 100px;
+  
+}
